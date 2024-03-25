@@ -34,3 +34,20 @@ footer {
     text-align: center; /* centrer le texte à l'intérieur du footer */
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to right, #8B4513, #D2B48C, #556B2F, #BDB76B, #8B4513); /* Répétez la première couleur à la fin */
+    background-size: 1500% auto;
+    animation: earthy-tones 20s ease infinite;
+}
+
+@keyframes earthy-tones {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
