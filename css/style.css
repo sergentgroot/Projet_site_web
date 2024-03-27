@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color: rgb(64, 136, 47);
+    background-color: rgb(255, 255, 255);
 }
 
 .centrage{
@@ -29,7 +29,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%; 
-    background-color:rgb(64, 136, 47) ; 
+    background-color:rgb(255, 255, 255) ; 
     padding: 10px 0; 
     text-align: center; 
 }
