@@ -34,3 +34,23 @@ footer {
     text-align: center; 
 }
 
+.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+/* CSS pour afficher les liens avec une transition */
+#menu-icon:checked + ul#menu-links {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.header{
+    background-color: beige;
+}
+
+.footer{
+    background-color: beige;
+}

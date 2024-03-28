@@ -4,42 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma première page web</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 
-<header>
-    <h1>Ma première page web</h1>
-</header>
+    <header class="header">
+        <h1 class="centrage">Menu</h1>
+        <nav>
+            <label for="menu-icon">
+                <img src="icone_menu.png" alt="Menu">
+            </label>
+            <input type="checkbox" id="menu-icon">
+            <ul id="menu-links" class="hidden">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<nav>
-    <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">À propos</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
 
-<main>
-    <section>
-        <h2>Bienvenue sur ma page web !</h2>
-        <p>Ceci est un paragraphe de texte d'introduction. Vous pouvez y écrire ce que vous voulez.</p>
-    </section>
+    <main>
+        <section>
+            <h2>Bienvenue sur ma page web !</h2>
+            <p>Ceci est un paragraphe de texte d'introduction. Vous pouvez y écrire ce que vous voulez.</p>
+        </section>
 
-    <section>
-        <h2>Nos services</h2>
-        <ul>
-            <li>Service 1</li>
-            <li>Service 2</li>
-            <li>Service 3</li>
-        </ul>
-    </section>
-</main>
+        <section>
+            <h2>Nos services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+    </main>
 
-<footer>
-    <p>&copy; 2024 Mon Entreprise. Tous droits réservés.</p>
-</footer>
+    <footer class="footer">
+        <p>&copy; 2024 Mon Entreprise. Tous droits réservés.</p>
+    </footer>
 
 </body>
 </html>
