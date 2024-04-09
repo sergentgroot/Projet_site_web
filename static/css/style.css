@@ -34,7 +34,7 @@ footer {
     text-align: center; 
 }
 
-.hideit{
+.hideit {
     display: none;
 }
 
@@ -42,12 +42,15 @@ footer {
     opacity: 0;
     transform: translateY(-20px);
     transition: opacity 0.3s, transform 0.3s;
+    position: absolute; /* Position absolue pour sortir de la vue */
+    top: 100%; /* Déplacer la liste sous le header */
 }
 
-/* CSS pour afficher les liens avec une transition */
 #menu-icon:checked + ul#menu-links {
     opacity: 1;
     transform: translateY(0);
+    position: relative; /* Retourner à la position relative */
+    top: 0; /* Réinitialiser la position */
 }
 
 
