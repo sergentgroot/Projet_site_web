@@ -22,7 +22,6 @@ body{
 
 .centrage{
     text-align: center;
-
 }
 
 footer {
@@ -56,8 +55,49 @@ footer {
 
 .header{
     background-color: beige;
+    position: relative;
+    height: 115px;
 }
 
 .footer{
     background-color: beige;
+}
+
+.header img {
+    position: absolute; /* Position absolue par rapport à son conteneur parent */
+    top: 0; /* Position en haut */
+    left: 0; /* Position à gauche */
+    width: 40px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+.menu-item {
+    border: 1px solid #ccc; /* Définit une bordure grise de 1 pixel autour de chaque div */
+    border-radius: 5px; 
+    margin-bottom: 10px; /* Ajoute un espace en bas de chaque div */
+    padding: 10px; /* Ajoute un espace à l'intérieur de chaque div */
+    width: 90px;
+}
+
+.item-info {
+    border: 1px solid #ccc; /* Définit une bordure grise de 1 pixel autour de chaque div */
+    border-radius: 5px; 
+    margin-bottom: 10px; /* Ajoute un espace en bas de chaque div */
+
+}
+
+.item-image {
+    border: 1px solid #ccc; /* Définit une bordure grise de 1 pixel autour de chaque div */
+    border-radius: 5px; 
+    margin-bottom: 10px; /* Ajoute un espace en bas de chaque div */
+    padding: 10px; /* Ajoute un espace à l'intérieur de chaque div */
+}
+
+.item-image img {
+    max-width: 100%; /* Définit la largeur maximale de l'image à 100% de la largeur de son conteneur */
+    height: auto; /* Permet à la hauteur de l'image de s'ajuster automatiquement pour maintenir les proportions */
+}
+
+.price {
+    border: 1px solid #ccc; /* Définit une bordure grise de 1 pixel autour de chaque div */
 }
