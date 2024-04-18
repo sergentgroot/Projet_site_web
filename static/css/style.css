@@ -61,6 +61,8 @@ footer {
 
 .footer{
     background-color: beige;
+    bottom: 0;
+    width: 100%;
 }
 
 .header img {
@@ -70,6 +72,7 @@ footer {
     width: 40px; /* Largeur de l'image */
     height: auto; /* Hauteur automatique pour conserver les proportions */
 }
+
 
 .menu-item {
     border: 1px solid #ccc; /* Définit une bordure grise de 1 pixel autour de chaque div */
