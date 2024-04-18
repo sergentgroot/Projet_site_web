@@ -104,3 +104,55 @@ footer {
 .price {
     border: 1px solid #ccc; /* Définit une bordure grise de 1 pixel autour de chaque div */
 }
+
+
+
+
+
+
+@keyframes swipe {
+    0% { transform: translateX(0); }
+    33.3% { transform: translateX(-100%); }
+    66.6% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+}
+
+.carousel-image {
+    animation: swipe 6s infinite;
+
+}
+
+.image-container {
+    width: 90px; /* Largeur totale des 3 images */
+    height: auto; /* Hauteur de la case */
+    overflow: hidden; /* Cache les images qui dépassent de la case */
+    border: 1px solid #ccc; /* Bordure de la case */
+    position: relative; /* Position relative pour les images */
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container img {
+    width: 90px; /* Largeur de chaque image */
+    height: auto; /* Hauteur de chaque image */
+    float: left; /* Pour aligner les images côte à côte */
+}
+
+
+
+
+
+
+.add-to-cart-btn {
+    background-color: #4CAF50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Remplissage intérieur */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de souris au survol */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}

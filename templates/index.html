@@ -36,17 +36,13 @@
 
 
     <main>
-        <section>
-            <h2 class="centrage">Bienvenue sur OBMFOOD</h2>
-            <p>Commandez vos meilleurs plats avec vos points</p>
-        </section>
-
-        <section>
-            <h2>Nos services</h2>
-            <ul>
-                <li>Service 1</li>
-            </ul>
-        </section>
+        <div class="box">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='image/1.jpeg') }}" alt="Image 1" class="carousel-image" width="90" height="auto">
+                <img src="{{ url_for('static', filename='image/2.jpeg') }}" alt="Image 2" class="carousel-image" width="90" height="auto">
+                <img src="{{ url_for('static', filename='image/3.jpeg') }}" alt="Image 3" class="carousel-image" width="90" height="auto">
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
